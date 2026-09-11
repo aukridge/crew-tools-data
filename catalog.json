@@ -1,0 +1,1586 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "id": "faa-navigation",
+      "revision": "2609",
+      "title": "FAA routes & navigation",
+      "subtitle": "Cycle 2609 · FAA route and navigation reference",
+      "kind": "navigation",
+      "format": "sqlite",
+      "downloadURL": "https://github.com/aukridge/crew-tools-data/releases/download/nav-2609/RouteExplorerCatalog2609.sqlite",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/aero_data/NASR_Subscription/",
+      "byteCount": 61546496,
+      "sha256": "3f5b93a2f64787f5dc51b9e588573ef0919d3aa2b51fcbdf3095d52152140e96",
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-01T09:01:00Z",
+      "region": "United States",
+      "contents": [
+        "CDR",
+        "Preferred routes",
+        "Airports",
+        "Fixes",
+        "Navaids",
+        "Airways"
+      ]
+    },
+    {
+      "id": "faa-ifr-delus1",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS1 / ELUS2",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus1.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS1 / ELUS2",
+      "contents": [
+        "ELUS1",
+        "ELUS2"
+      ],
+      "byteCount": 7919499
+    },
+    {
+      "id": "faa-ifr-delus3",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS3 / ELUS4",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus3.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS3 / ELUS4",
+      "contents": [
+        "ELUS3",
+        "ELUS4"
+      ],
+      "byteCount": 7895007
+    },
+    {
+      "id": "faa-ifr-delus5",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS5 / ELUS6",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus5.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS5 / ELUS6",
+      "contents": [
+        "ELUS5",
+        "ELUS6"
+      ],
+      "byteCount": 4007039
+    },
+    {
+      "id": "faa-ifr-delus7",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS7 / ELUS8",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus7.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS7 / ELUS8",
+      "contents": [
+        "ELUS7",
+        "ELUS8"
+      ],
+      "byteCount": 5151786
+    },
+    {
+      "id": "faa-ifr-delus9",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS9 / ELUS10",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus9.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS9 / ELUS10",
+      "contents": [
+        "ELUS9",
+        "ELUS10"
+      ],
+      "byteCount": 6883756
+    },
+    {
+      "id": "faa-ifr-delus11",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS11 / ELUS12",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus11.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS11 / ELUS12",
+      "contents": [
+        "ELUS11",
+        "ELUS12"
+      ],
+      "byteCount": 6945367
+    },
+    {
+      "id": "faa-ifr-delus13",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS13 / ELUS14",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus13.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS13 / ELUS14",
+      "contents": [
+        "ELUS13",
+        "ELUS14"
+      ],
+      "byteCount": 9044349
+    },
+    {
+      "id": "faa-ifr-delus15",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS15 / ELUS16",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus15.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS15 / ELUS16",
+      "contents": [
+        "ELUS15",
+        "ELUS16"
+      ],
+      "byteCount": 5727151
+    },
+    {
+      "id": "faa-ifr-delus17",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS17 / ELUS18",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus17.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS17 / ELUS18",
+      "contents": [
+        "ELUS17",
+        "ELUS18"
+      ],
+      "byteCount": 7430078
+    },
+    {
+      "id": "faa-ifr-delus19",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS19 / ELUS20",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus19.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS19 / ELUS20",
+      "contents": [
+        "ELUS19",
+        "ELUS20"
+      ],
+      "byteCount": 6680992
+    },
+    {
+      "id": "faa-ifr-delus21",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS21 / ELUS22",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus21.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS21 / ELUS22",
+      "contents": [
+        "ELUS21",
+        "ELUS22"
+      ],
+      "byteCount": 14223686
+    },
+    {
+      "id": "faa-ifr-delus23",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS23 / ELUS24",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus23.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS23 / ELUS24",
+      "contents": [
+        "ELUS23",
+        "ELUS24"
+      ],
+      "byteCount": 13805751
+    },
+    {
+      "id": "faa-ifr-delus25",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS25 / ELUS26",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus25.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS25 / ELUS26",
+      "contents": [
+        "ELUS25",
+        "ELUS26"
+      ],
+      "byteCount": 5258878
+    },
+    {
+      "id": "faa-ifr-delus27",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS27 / ELUS28",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus27.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS27 / ELUS28",
+      "contents": [
+        "ELUS27",
+        "ELUS28"
+      ],
+      "byteCount": 9648817
+    },
+    {
+      "id": "faa-ifr-delus29",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS29 / ELUS30",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus29.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS29 / ELUS30",
+      "contents": [
+        "ELUS29",
+        "ELUS30"
+      ],
+      "byteCount": 7451318
+    },
+    {
+      "id": "faa-ifr-delus31",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS31 / ELUS32",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus31.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS31 / ELUS32",
+      "contents": [
+        "ELUS31",
+        "ELUS32"
+      ],
+      "byteCount": 14251631
+    },
+    {
+      "id": "faa-ifr-delus33",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS33 / ELUS34",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus33.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS33 / ELUS34",
+      "contents": [
+        "ELUS33",
+        "ELUS34"
+      ],
+      "byteCount": 16101393
+    },
+    {
+      "id": "faa-ifr-delus35",
+      "revision": "2026-09-03",
+      "title": "IFR Low — ELUS35 / ELUS36",
+      "subtitle": "IFR Enroute Low Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delus35.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELUS35 / ELUS36",
+      "contents": [
+        "ELUS35",
+        "ELUS36"
+      ],
+      "byteCount": 11576755
+    },
+    {
+      "id": "faa-ifr-dehus1",
+      "revision": "2026-09-03",
+      "title": "IFR High — EHUS1 / EHUS2",
+      "subtitle": "Enroute High Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/dehus1.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "EHUS1 / EHUS2",
+      "contents": [
+        "EHUS1",
+        "EHUS2"
+      ],
+      "byteCount": 7931774
+    },
+    {
+      "id": "faa-ifr-dehus3",
+      "revision": "2026-09-03",
+      "title": "IFR High — EHUS3 / EHUS4",
+      "subtitle": "Enroute High Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/dehus3.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "EHUS3 / EHUS4",
+      "contents": [
+        "EHUS3",
+        "EHUS4"
+      ],
+      "byteCount": 10091401
+    },
+    {
+      "id": "faa-ifr-dehus5",
+      "revision": "2026-09-03",
+      "title": "IFR High — EHUS5 / EHUS6",
+      "subtitle": "Enroute High Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/dehus5.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "EHUS5 / EHUS6",
+      "contents": [
+        "EHUS5",
+        "EHUS6"
+      ],
+      "byteCount": 5102155
+    },
+    {
+      "id": "faa-ifr-dehus7",
+      "revision": "2026-09-03",
+      "title": "IFR High — EHUS7 / EHUS8",
+      "subtitle": "Enroute High Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/dehus7.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "EHUS7 / EHUS8",
+      "contents": [
+        "EHUS7",
+        "EHUS8"
+      ],
+      "byteCount": 11577982
+    },
+    {
+      "id": "faa-ifr-dehus9",
+      "revision": "2026-09-03",
+      "title": "IFR High — EHUS9 / EHUS10",
+      "subtitle": "Enroute High Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/dehus9.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "EHUS9 / EHUS10",
+      "contents": [
+        "EHUS9",
+        "EHUS10"
+      ],
+      "byteCount": 10142390
+    },
+    {
+      "id": "faa-ifr-dehus11",
+      "revision": "2026-09-03",
+      "title": "IFR High — EHUS11 / EHUS12",
+      "subtitle": "Enroute High Altitude (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/dehus11.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "EHUS11 / EHUS12",
+      "contents": [
+        "EHUS11",
+        "EHUS12"
+      ],
+      "byteCount": 14507340
+    },
+    {
+      "id": "faa-ifr-delak1",
+      "revision": "2026-09-03",
+      "title": "IFR Alaska — ELAK1 / ELAK2",
+      "subtitle": "Low & Enroute High Altitude (Alaska) GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delak1.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELAK1 / ELAK2",
+      "contents": [
+        "ELAK1",
+        "ELAK2"
+      ],
+      "byteCount": 31456001
+    },
+    {
+      "id": "faa-ifr-delak3",
+      "revision": "2026-09-03",
+      "title": "IFR Alaska — ELAK3 / ELAK4",
+      "subtitle": "Low & Enroute High Altitude (Alaska) GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delak3.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELAK3 / ELAK4",
+      "contents": [
+        "ELAK3",
+        "ELAK4"
+      ],
+      "byteCount": 28082758
+    },
+    {
+      "id": "faa-ifr-dehak1",
+      "revision": "2026-09-03",
+      "title": "IFR Alaska — EHAK1 / EHAK2",
+      "subtitle": "Low & Enroute High Altitude (Alaska) GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/dehak1.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "EHAK1 / EHAK2",
+      "contents": [
+        "EHAK1",
+        "EHAK2"
+      ],
+      "byteCount": 20992360
+    },
+    {
+      "id": "faa-ifr-dephi1",
+      "revision": "2026-09-03",
+      "title": "IFR Hawaii/Pacific — EPHI1 / EPHI2",
+      "subtitle": "Hawaii/Pacific Charts (U.S.)",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/dephi1.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "EPHI1 / EPHI2",
+      "contents": [
+        "EPHI1",
+        "EPHI2"
+      ],
+      "byteCount": 11536303
+    },
+    {
+      "id": "faa-ifr-delcb1",
+      "revision": "2026-09-03",
+      "title": "IFR Low Caribbean — ELCB1-2",
+      "subtitle": "Enroute Low Altitude (Caribbean) Files",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delcb1.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELCB1-2",
+      "contents": [
+        "ELCB1-2"
+      ],
+      "byteCount": 36299435
+    },
+    {
+      "id": "faa-ifr-delcb3",
+      "revision": "2026-09-03",
+      "title": "IFR Low Caribbean — ELCB3/ELCBA3",
+      "subtitle": "Enroute Low Altitude (Caribbean) Files",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delcb3.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELCB3/ELCBA3",
+      "contents": [
+        "ELCB3/ELCBA3"
+      ],
+      "byteCount": 6570653
+    },
+    {
+      "id": "faa-ifr-delcb5",
+      "revision": "2026-09-03",
+      "title": "IFR Low Caribbean — ELCB5-6",
+      "subtitle": "Enroute Low Altitude (Caribbean) Files",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/delcb5.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "ELCB5-6",
+      "contents": [
+        "ELCB5-6"
+      ],
+      "byteCount": 20971517
+    },
+    {
+      "id": "faa-ifr-dehcb1",
+      "revision": "2026-09-03",
+      "title": "IFR High Caribbean — EHCB1-2-7-8",
+      "subtitle": "Enroute High Altitude (Caribbean) Files",
+      "kind": "chart",
+      "format": "pdfZIP",
+      "downloadURL": "https://aeronav.faa.gov/enroute/09-03-2026/dehcb1.zip",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/ifr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "EHCB1-2-7-8",
+      "contents": [
+        "EHCB1-2-7-8"
+      ],
+      "byteCount": 13408778
+    },
+    {
+      "id": "faa-vfr-albuquerque",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Albuquerque",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Albuquerque.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Albuquerque",
+      "contents": [
+        "Albuquerque"
+      ],
+      "byteCount": 135135346
+    },
+    {
+      "id": "faa-vfr-anchorage",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Anchorage",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Anchorage.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Anchorage",
+      "contents": [
+        "Anchorage"
+      ],
+      "byteCount": 139763466
+    },
+    {
+      "id": "faa-vfr-atlanta",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Atlanta",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Atlanta.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Atlanta",
+      "contents": [
+        "Atlanta"
+      ],
+      "byteCount": 185226968
+    },
+    {
+      "id": "faa-vfr-bethel",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Bethel",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Bethel.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Bethel",
+      "contents": [
+        "Bethel"
+      ],
+      "byteCount": 98221271
+    },
+    {
+      "id": "faa-vfr-billings",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Billings",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Billings.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Billings",
+      "contents": [
+        "Billings"
+      ],
+      "byteCount": 109470544
+    },
+    {
+      "id": "faa-vfr-brownsville",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Brownsville",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Brownsville.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Brownsville",
+      "contents": [
+        "Brownsville"
+      ],
+      "byteCount": 113698350
+    },
+    {
+      "id": "faa-vfr-cape-lisburne",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Cape Lisburne",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Cape_Lisburne.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Cape Lisburne",
+      "contents": [
+        "Cape Lisburne"
+      ],
+      "byteCount": 86828755
+    },
+    {
+      "id": "faa-vfr-charlotte",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Charlotte",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Charlotte.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Charlotte",
+      "contents": [
+        "Charlotte"
+      ],
+      "byteCount": 117455210
+    },
+    {
+      "id": "faa-vfr-cheyenne",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Cheyenne",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Cheyenne.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Cheyenne",
+      "contents": [
+        "Cheyenne"
+      ],
+      "byteCount": 160700517
+    },
+    {
+      "id": "faa-vfr-chicago",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Chicago",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Chicago.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Chicago",
+      "contents": [
+        "Chicago"
+      ],
+      "byteCount": 151975928
+    },
+    {
+      "id": "faa-vfr-cincinnati",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Cincinnati",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Cincinnati.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Cincinnati",
+      "contents": [
+        "Cincinnati"
+      ],
+      "byteCount": 177706182
+    },
+    {
+      "id": "faa-vfr-cold-bay",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Cold Bay",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Cold_Bay.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Cold Bay",
+      "contents": [
+        "Cold Bay"
+      ],
+      "byteCount": 30424721
+    },
+    {
+      "id": "faa-vfr-dallas-ft-worth",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Dallas-Ft Worth",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Dallas-Ft_Worth.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Dallas-Ft Worth",
+      "contents": [
+        "Dallas-Ft Worth"
+      ],
+      "byteCount": 133364467
+    },
+    {
+      "id": "faa-vfr-dawson",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Dawson",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Dawson.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Dawson",
+      "contents": [
+        "Dawson"
+      ],
+      "byteCount": 123195530
+    },
+    {
+      "id": "faa-vfr-denver",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Denver",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Denver.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Denver",
+      "contents": [
+        "Denver"
+      ],
+      "byteCount": 167442175
+    },
+    {
+      "id": "faa-vfr-detroit",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Detroit",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Detroit.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Detroit",
+      "contents": [
+        "Detroit"
+      ],
+      "byteCount": 149591906
+    },
+    {
+      "id": "faa-vfr-dutch-harbor",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Dutch Harbor",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Dutch_Harbor.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Dutch Harbor",
+      "contents": [
+        "Dutch Harbor"
+      ],
+      "byteCount": 36263000
+    },
+    {
+      "id": "faa-vfr-el-paso",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — El Paso",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/El_Paso.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "El Paso",
+      "contents": [
+        "El Paso"
+      ],
+      "byteCount": 123411591
+    },
+    {
+      "id": "faa-vfr-fairbanks",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Fairbanks",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Fairbanks.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Fairbanks",
+      "contents": [
+        "Fairbanks"
+      ],
+      "byteCount": 164464493
+    },
+    {
+      "id": "faa-vfr-great-falls",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Great Falls",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Great_Falls.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Great Falls",
+      "contents": [
+        "Great Falls"
+      ],
+      "byteCount": 207628572
+    },
+    {
+      "id": "faa-vfr-green-bay",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Green Bay",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Green_Bay.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Green Bay",
+      "contents": [
+        "Green Bay"
+      ],
+      "byteCount": 118153454
+    },
+    {
+      "id": "faa-vfr-halifax",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Halifax",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Halifax.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Halifax",
+      "contents": [
+        "Halifax"
+      ],
+      "byteCount": 101754390
+    },
+    {
+      "id": "faa-vfr-hawaiian-islands",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Hawaiian Islands",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Hawaiian_Islands.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Hawaiian Islands",
+      "contents": [
+        "Hawaiian Islands"
+      ],
+      "byteCount": 57597288
+    },
+    {
+      "id": "faa-vfr-houston",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Houston",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Houston.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Houston",
+      "contents": [
+        "Houston"
+      ],
+      "byteCount": 107394598
+    },
+    {
+      "id": "faa-vfr-jacksonville",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Jacksonville",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Jacksonville.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Jacksonville",
+      "contents": [
+        "Jacksonville"
+      ],
+      "byteCount": 109068171
+    },
+    {
+      "id": "faa-vfr-juneau",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Juneau",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Juneau.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Juneau",
+      "contents": [
+        "Juneau"
+      ],
+      "byteCount": 132605547
+    },
+    {
+      "id": "faa-vfr-kansas-city",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Kansas City",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Kansas_City.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Kansas City",
+      "contents": [
+        "Kansas City"
+      ],
+      "byteCount": 130906300
+    },
+    {
+      "id": "faa-vfr-ketchikan",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Ketchikan",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Ketchikan.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Ketchikan",
+      "contents": [
+        "Ketchikan"
+      ],
+      "byteCount": 69952164
+    },
+    {
+      "id": "faa-vfr-klamath-falls",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Klamath Falls",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Klamath_Falls.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Klamath Falls",
+      "contents": [
+        "Klamath Falls"
+      ],
+      "byteCount": 171053867
+    },
+    {
+      "id": "faa-vfr-kodiak",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Kodiak",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Kodiak.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Kodiak",
+      "contents": [
+        "Kodiak"
+      ],
+      "byteCount": 106687107
+    },
+    {
+      "id": "faa-vfr-lake-huron",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Lake Huron",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Lake_Huron.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Lake Huron",
+      "contents": [
+        "Lake Huron"
+      ],
+      "byteCount": 122625931
+    },
+    {
+      "id": "faa-vfr-las-vegas",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Las Vegas",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Las_Vegas.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Las Vegas",
+      "contents": [
+        "Las Vegas"
+      ],
+      "byteCount": 173391815
+    },
+    {
+      "id": "faa-vfr-los-angeles",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Los Angeles",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Los_Angeles.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Los Angeles",
+      "contents": [
+        "Los Angeles"
+      ],
+      "byteCount": 145849079
+    },
+    {
+      "id": "faa-vfr-mcgrath",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — McGrath",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/McGrath.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "McGrath",
+      "contents": [
+        "McGrath"
+      ],
+      "byteCount": 127202216
+    },
+    {
+      "id": "faa-vfr-memphis",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Memphis",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Memphis.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Memphis",
+      "contents": [
+        "Memphis"
+      ],
+      "byteCount": 148983369
+    },
+    {
+      "id": "faa-vfr-miami",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Miami",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Miami.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Miami",
+      "contents": [
+        "Miami"
+      ],
+      "byteCount": 78646812
+    },
+    {
+      "id": "faa-vfr-montreal",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Montreal",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Montreal.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Montreal",
+      "contents": [
+        "Montreal"
+      ],
+      "byteCount": 145025331
+    },
+    {
+      "id": "faa-vfr-new-orleans",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — New Orleans",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/New_Orleans.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "New Orleans",
+      "contents": [
+        "New Orleans"
+      ],
+      "byteCount": 104940330
+    },
+    {
+      "id": "faa-vfr-new-york",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — New York",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/New_York.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "New York",
+      "contents": [
+        "New York"
+      ],
+      "byteCount": 171017585
+    },
+    {
+      "id": "faa-vfr-nome",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Nome",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Nome.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Nome",
+      "contents": [
+        "Nome"
+      ],
+      "byteCount": 135505173
+    },
+    {
+      "id": "faa-vfr-omaha",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Omaha",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Omaha.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Omaha",
+      "contents": [
+        "Omaha"
+      ],
+      "byteCount": 148691178
+    },
+    {
+      "id": "faa-vfr-phoenix",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Phoenix",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Phoenix.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Phoenix",
+      "contents": [
+        "Phoenix"
+      ],
+      "byteCount": 203239151
+    },
+    {
+      "id": "faa-vfr-point-barrow",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Point Barrow",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Point_Barrow.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Point Barrow",
+      "contents": [
+        "Point Barrow"
+      ],
+      "byteCount": 117445757
+    },
+    {
+      "id": "faa-vfr-st-louis",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — St Louis",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/St_Louis.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "St Louis",
+      "contents": [
+        "St Louis"
+      ],
+      "byteCount": 151797402
+    },
+    {
+      "id": "faa-vfr-salt-lake-city",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Salt Lake City",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Salt_Lake_City.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Salt Lake City",
+      "contents": [
+        "Salt Lake City"
+      ],
+      "byteCount": 188096709
+    },
+    {
+      "id": "faa-vfr-san-antonio",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — San Antonio",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/San_Antonio.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "San Antonio",
+      "contents": [
+        "San Antonio"
+      ],
+      "byteCount": 126998789
+    },
+    {
+      "id": "faa-vfr-san-francisco",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — San Francisco",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/San_Francisco.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "San Francisco",
+      "contents": [
+        "San Francisco"
+      ],
+      "byteCount": 153500535
+    },
+    {
+      "id": "faa-vfr-seattle",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Seattle",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Seattle.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Seattle",
+      "contents": [
+        "Seattle"
+      ],
+      "byteCount": 183397269
+    },
+    {
+      "id": "faa-vfr-seward",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Seward",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Seward.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Seward",
+      "contents": [
+        "Seward"
+      ],
+      "byteCount": 83700219
+    },
+    {
+      "id": "faa-vfr-twin-cities",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Twin Cities",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Twin_Cities.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Twin Cities",
+      "contents": [
+        "Twin Cities"
+      ],
+      "byteCount": 129845190
+    },
+    {
+      "id": "faa-vfr-washington",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Washington",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Washington.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Washington",
+      "contents": [
+        "Washington"
+      ],
+      "byteCount": 117201574
+    },
+    {
+      "id": "faa-vfr-western-aleutian-islands",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Western Aleutian Islands",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Western_Aleutian_Islands.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Western Aleutian Islands",
+      "contents": [
+        "Western Aleutian Islands"
+      ],
+      "byteCount": 30721944
+    },
+    {
+      "id": "faa-vfr-wichita",
+      "revision": "2026-09-03",
+      "title": "VFR Sectional — Wichita",
+      "subtitle": "Sectional Aeronautical Raster Charts GEO-TIFF Files",
+      "kind": "chart",
+      "format": "pdf",
+      "downloadURL": "https://aeronav.faa.gov/visual/09-03-2026/PDFs/Wichita.pdf",
+      "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/vfr/",
+      "sha256": null,
+      "effectiveAt": "2026-09-03T09:01:00Z",
+      "expiresAt": "2026-10-29T09:01:00Z",
+      "region": "Wichita",
+      "contents": [
+        "Wichita"
+      ],
+      "byteCount": 109520409
+    }
+  ]
+}
