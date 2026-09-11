@@ -7,7 +7,7 @@ This repository does not contain app source code, company manuals, user document
 ## Downloads
 
 - `catalog.json`: edition-specific download URLs, byte counts, validity windows, and source attribution.
-- Release `nav-2609`: FAA-derived CDRs, preferred routes, airports, fixes, navaids and airways in an integrity-checked SQLite package.
+- Planned release `nav-2609` (upload/verification pending; navigation download is disabled in the catalog): FAA-derived CDRs, preferred routes, airports, fixes, navaids and airways in an integrity-checked SQLite package.
 - Regional IFR and VFR chart files download directly from FAA. This repository lists the original files rather than mirroring charts.
 
 ## Source and use boundaries
