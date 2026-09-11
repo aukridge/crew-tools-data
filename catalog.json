@@ -8,7 +8,7 @@
       "subtitle": "Cycle 2609 · FAA route and navigation reference",
       "kind": "navigation",
       "format": "sqlite",
-      "downloadURL": "https://github.com/aukridge/crew-tools-data/releases/download/nav-2609/RouteExplorerCatalog2609.sqlite",
+      "downloadURL": null,
       "sourceURL": "https://www.faa.gov/air_traffic/flight_info/aeronav/aero_data/NASR_Subscription/",
       "byteCount": 61546496,
       "sha256": "3f5b93a2f64787f5dc51b9e588573ef0919d3aa2b51fcbdf3095d52152140e96",
